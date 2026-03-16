@@ -27,7 +27,7 @@
             margin-bottom: 60px;
         }
         .logo-container {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
         .logo {
             max-width: 400px;
@@ -35,17 +35,12 @@
             display: block;
             margin: 0 auto;
         }
-        h1 {
-            color: #0f172a; /* Darkest slate for the main title */
-            font-size: 2.2rem;
-            margin: 0 0 10px 0;
-            letter-spacing: -0.5px;
-        }
         h2 {
             color: #64748b;
             font-size: 1.1rem;
             font-weight: 400;
             margin: 0;
+            letter-spacing: 0.5px;
         }
 
         /* Content Sections */
@@ -60,6 +55,19 @@
         p {
             margin-bottom: 20px;
             text-align: justify;
+        }
+
+        /* Lists */
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        li strong {
+            color: #0f172a; /* Darker slate for the bolded terms */
         }
 
         /* Footer & Disclaimer */
@@ -95,19 +103,23 @@
         <div class="logo-container">
             <img src="logo.png" alt="Lattice Trading Systems Logo" class="logo">
         </div>
-        <h1>Lattice Trading Systems, LLC</h1>
         <h2>Proprietary Algorithmic Trading</h2>
     </header>
 
     <main>
         <section>
-            <h3>Our Philosophy: The Lattice Approach</h3>
-            <p>A lattice is a foundational structure defined by its interconnected elements. At LTS, our investment framework mirrors this principle. We deploy a diversified, rules-based approach focused on building a portfolio of completely uncorrelated trading algorithms. By converging momentum, mean reversion, and statistical arbitrage models into a cohesive system, we prioritize disciplined volatility control and optimized risk-adjusted metrics, such as the Sharpe ratio. We do not rely on discretionary macro calls; we rely on mathematics.</p>
+            <h3>The Lattice Approach</h3>
+            <p>A lattice is a foundational structure of interconnected, orthogonal elements. At LTS, our investment framework mirrors this principle. We develop and run a portfolio of uncorrelated trading algorithms. By combining momentum and mean reversion factors across multiple asset classes, we seek to optimize risk-adjusted metrics like Sharpe and Calmar ratios.</p>
+            <p>Our strategy relies entirely on probabilistic models and automated execution. We adjust exposures dynamically to adapt to shifting market regimes, eliminating all discretionary trading and macro forecasting.</p>
         </section>
 
         <section>
-            <h3>Our Infrastructure & Execution</h3>
-            <p>Enduring success in modern markets requires a holistic, systemic view converging with an institutional-grade operational edge. Headquartered in St. Petersburg, Florida, LTS leverages advanced, automated technology—including algorithmic execution via Composer and secure custody through Alpaca—to deploy high-fidelity systematic strategies. This infrastructure allows our models to dynamically adapt to shifting market regimes while maintaining strict downside protection.</p>
+            <h3>Core Principles</h3>
+            <ul>
+                <li><strong>Systematic Execution:</strong> Eliminating behavioral bias through fully automated, rules-based trade execution.</li>
+                <li><strong>Uncorrelated Strategies:</strong> Deploying uncorrelated independent models to ensure systemic resilience across varying market conditions.</li>
+                <li><strong>Strict Risk Management:</strong> Prioritizing dynamic capital allocation and strict drawdown limits to protect capital in adverse regimes.</li>
+            </ul>
         </section>
 
         <section class="disclaimer">
