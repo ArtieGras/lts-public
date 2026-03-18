@@ -18,7 +18,7 @@
         .container {
             max-width: 800px;
             margin: 0 auto;
-            padding: 60px 20px;
+            padding: 60px 20px; /* Default desktop padding */
         }
 
         /* Header & Logo */
@@ -31,7 +31,7 @@
         }
         .logo {
             width: 100%;
-            max-width: 500px;
+            max-width: 500px; /* Increased by 25% from 400px */
             height: auto;
             display: block;
         }
@@ -55,7 +55,7 @@
         }
         p {
             margin-bottom: 20px;
-            text-align: justify;
+            text-align: left; /* Replaced justified text for better readability */
         }
 
         /* Lists */
@@ -95,6 +95,13 @@
         .contact a:hover {
             text-decoration: underline;
         }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px; /* Reduced vertical padding for mobile */
+            }
+        }
     </style>
 </head>
 <body>
@@ -108,28 +115,29 @@
 
     <main>
     
-    <h3>Proprietary Algorithmic Trading: The Lattice Approach</h3>
-    <p>A lattice is a structure built for stability through interconnected, yet independent nodes. At LTS, our investment framework mirrors this architecture by treating each algorithmic strategy as an independent model of market behavior. Rather than relying on a single assumption, we synthesize diverse "nodes" rooted in various market factors into an integrated structure.</p>
-    <p>The strength of the lattice lies in its orthogonal connections — defined in our context as intentional uncorrelation. By ensuring our strategies move at "right angles" to one another, we create structural integrity: when one model faces stress in a specific regime, others provide support to maintain the stability of the entire system. We move beyond isolated trade-picking to engineer a resilient framework designed to survive and thrive across any market environment.</p>
-</section>
+    <section>
+        <h3>Proprietary Algorithmic Trading: The Lattice Approach</h3>
+        <p>A lattice is a structure built for stability through interconnected, yet independent nodes. At LTS, our investment framework mirrors this architecture by treating each algorithmic strategy as an independent model of market behavior. Rather than relying on a single assumption, we synthesize diverse "nodes" rooted in various market factors into an integrated structure.</p>
+        <p>The strength of the lattice lies in its orthogonal connections — defined in our context as intentional uncorrelation. By ensuring our strategies move at "right angles" to one another, we create structural integrity: when one model faces stress in a specific regime, others provide support to maintain the stability of the entire system. We move beyond isolated trade-picking to engineer a resilient framework designed to survive and thrive across any market environment.</p>
+    </section>
 
-<section>
-    <h3>Core Principles</h3>
-    <ul>
-        <li><strong>Diversified Alpha:</strong> Deploying many uncorrelated independent models to ensure systemic resilience across varying market conditions.</li>
-        <li><strong>Systematic Execution:</strong> Eliminating behavioral bias through fully automated, rules-based trade execution.</li>
-        <li><strong>Strict Risk Management:</strong> Prioritizing dynamic capital allocation and rigorous drawdown limits to protect capital in adverse regimes.</li>
-    </ul>
-</section>
+    <section>
+        <h3>Core Principles</h3>
+        <ul>
+            <li><strong>Diversified Alpha:</strong> Deploying many uncorrelated independent models to ensure systemic resilience across varying market conditions.</li>
+            <li><strong>Systematic Execution:</strong> Eliminating behavioral bias through fully automated, rules-based trade execution.</li>
+            <li><strong>Strict Risk Management:</strong> Prioritizing dynamic capital allocation and rigorous drawdown limits to protect capital in adverse regimes.</li>
+        </ul>
+    </section>
 
-        <section class="disclaimer">
-            <strong>Legal Disclaimers:</strong> Lattice Trading Systems, LLC operates exclusively as a proprietary trading firm, trading its own capital. We do not accept outside investment, manage third-party funds, solicit clients, or sell algorithmic trading systems. We are not a broker-dealer, investment adviser, or financial planner. This website is entirely for informational purposes and does not constitute financial advice, an offer of services, or a solicitation of capital.
-        </section>
+    <section class="disclaimer">
+        <strong>Legal Disclaimers:</strong> Lattice Trading Systems, LLC operates exclusively as a proprietary trading firm, trading its own capital. We do not accept outside investment, manage third-party funds, solicit clients, or sell algorithmic trading systems. We are not a broker-dealer, investment adviser, or financial planner. This website is entirely for informational purposes and does not constitute financial advice, an offer of services, or a solicitation of capital.
+    </section>
         
-        <div class="contact">
-            <p>St. Petersburg, Florida</p>
-            <p><a href="mailto:contact@latticetradingsystems.com">contact@latticetradingsystems.com</a></p>
-        </div>
+    <div class="contact">
+        <p>St. Petersburg, Florida</p>
+        <p><a href="mailto:contact@latticetradingsystems.com">contact@latticetradingsystems.com</a></p>
+    </div>
     </main>
 </div>
 
